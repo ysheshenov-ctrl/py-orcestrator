@@ -1,0 +1,4 @@
+Enter to venv -- 
+source .venv/bin/activate.fish
+to save state of packages: 
+pip freeze > requirements.txt
