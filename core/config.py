@@ -33,9 +33,11 @@ class Config:
         return self._ollama_host
 
     def get_claude_thinking(self) -> dict[str, str]:
+        # TODO: move to .env
         return {"type": "adaptive"}
 
     def get_claude_output_config(self) -> dict[str, str]:
+        # TODO: move to .env
         return {"effort": "medium"}
 
 config = Config()

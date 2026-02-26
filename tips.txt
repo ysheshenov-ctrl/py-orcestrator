@@ -3,4 +3,4 @@ source .venv/bin/activate.fish
 to save state of packages: 
 pip freeze > requirements.txt
 log on/off:
-add a key "--log" while running main.py 
+add a key "--log" while running main.py
